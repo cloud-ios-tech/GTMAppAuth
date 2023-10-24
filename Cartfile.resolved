@@ -1,0 +1,2 @@
+git "git@gitlab.corp.mail.ru:ios-shared/mail/AppAuth-iOS.git" "1.6.1-warning-fix#2"
+github "cloud-ios-tech/gtm-session-fetcher" "fd1eed374b8cbb7f86a698547e289c0a84c1080c"

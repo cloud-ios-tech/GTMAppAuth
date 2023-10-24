@@ -1,0 +1,2 @@
+git "git@gitlab.corp.mail.ru:ios-shared/mail/AppAuth-iOS.git" "1.6.1-warning-fix#2"
+git "git@github.com:cloud-ios-tech/gtm-session-fetcher.git" "dg/CLOUDIOS-7241-ObjectiveC-modules-to-tuist"
