@@ -1,4 +1,4 @@
-/*! @file GTMAppAuth.h
+/*! @file GTMAppAuthCore.h
     @brief GTMAppAuth SDK
     @copyright
         Copyright 2016 Google Inc.
