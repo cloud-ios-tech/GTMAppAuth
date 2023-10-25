@@ -16,14 +16,14 @@
         limitations under the License.
  */
 
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMAppAuthFetcherAuthorization.h"
+#import "GTMAppAuthFetcherAuthorization.h"
 
 #if SWIFT_PACKAGE || GTMAPPAUTH_USE_MODULAR_IMPORT
 @import AppAuthCore;
 #elif GTMAPPAUTH_USER_IMPORTS
 #import "AppAuthCore.h"
 #else
-#import <AppAuth/AppAuthCore.h>
+#import <AppAuth/AppAuth.h>
 #endif
 
 #define GTMOAuth2AssertValidSelector GTMBridgeAssertValidSelector

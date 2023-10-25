@@ -18,6 +18,10 @@
 		28829DCA2AE88010008B0827 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A591432D89836F718C317D2 /* GTMAppAuthFetcherAuthorization+Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28829DCB2AE88012008B0827 /* GTMKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ED9416ABFFCDE41BDF19D7E /* GTMKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28829DCC2AE88013008B0827 /* GTMOAuth2KeychainCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A33C85103ECECAE3058A14F /* GTMOAuth2KeychainCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289C32102AE916880017390D /* GTMKeychain_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D817BB4E3B406942F29AA7D /* GTMKeychain_iOS.m */; };
+		289C32162AE916880017390D /* GTMAppAuthFetcherAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DD1DE1D86E48461122D7D7 /* GTMAppAuthFetcherAuthorization.m */; };
+		289C32172AE916880017390D /* GTMAppAuthFetcherAuthorization+Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = D6964BA7227FB54CC29AF315 /* GTMAppAuthFetcherAuthorization+Keychain.m */; };
+		289C32182AE916880017390D /* GTMOAuth2KeychainCompatibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E456A2F6E158272A1EFD55D /* GTMOAuth2KeychainCompatibility.m */; };
 		28AC130E2AE83E03008A0726 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AC130D2AE83E03008A0726 /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AC13132AE83E11008A0726 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC13122AE83E11008A0726 /* Security.framework */; };
 /* End PBXBuildFile section */
@@ -266,6 +270,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289C32102AE916880017390D /* GTMKeychain_iOS.m in Sources */,
+				289C32162AE916880017390D /* GTMAppAuthFetcherAuthorization.m in Sources */,
+				289C32172AE916880017390D /* GTMAppAuthFetcherAuthorization+Keychain.m in Sources */,
+				289C32182AE916880017390D /* GTMOAuth2KeychainCompatibility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

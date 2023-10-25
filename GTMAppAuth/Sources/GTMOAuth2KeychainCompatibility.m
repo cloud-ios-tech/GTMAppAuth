@@ -16,10 +16,10 @@
         limitations under the License.
  */
 
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMOAuth2KeychainCompatibility.h"
+#import "GTMOAuth2KeychainCompatibility.h"
 
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMAppAuthFetcherAuthorization.h"
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMKeychain.h"
+#import "GTMAppAuthFetcherAuthorization.h"
+#import "GTMKeychain.h"
 
 #if SWIFT_PACKAGE || GTMAPPAUTH_USE_MODULAR_IMPORT
 @import AppAuthCore;
@@ -28,7 +28,7 @@
 #import "AppAuthCore.h"
 #import "GTMSessionFetcher.h"
 #else
-#import <AppAuth/AppAuthCore.h>
+#import <AppAuth/AppAuth.h>
 #import <GTMSessionFetcher/GTMSessionFetcher.h>
 #endif
 

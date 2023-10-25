@@ -20,7 +20,7 @@
 
 #if TARGET_OS_IPHONE
 
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMKeychain.h"
+#import "GTMKeychain.h"
 
 #import <Security/Security.h>
 

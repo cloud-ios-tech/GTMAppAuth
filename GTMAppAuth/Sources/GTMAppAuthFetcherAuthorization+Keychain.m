@@ -16,9 +16,9 @@
         limitations under the License.
  */
 
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMAppAuthFetcherAuthorization+Keychain.h"
+#import "GTMAppAuthFetcherAuthorization+Keychain.h"
 
-#import "GTMAppAuth/Sources/Public/GTMAppAuth/GTMKeychain.h"
+#import "GTMKeychain.h"
 
 @implementation GTMAppAuthFetcherAuthorization (Keychain)
 
