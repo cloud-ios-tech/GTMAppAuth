@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		28829DC12AE87EDE008B0827 /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28829DBE2AE87EDE008B0827 /* GTMSessionFetcher.xcframework */; };
-		28829DC22AE87EDE008B0827 /* GTMSessionFetcher.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28829DBE2AE87EDE008B0827 /* GTMSessionFetcher.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28829DC32AE87EDE008B0827 /* AppAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28829DBF2AE87EDE008B0827 /* AppAuth.xcframework */; };
-		28829DC42AE87EDE008B0827 /* AppAuth.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28829DBF2AE87EDE008B0827 /* AppAuth.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28829DC52AE87EDE008B0827 /* AppAuthCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28829DC02AE87EDE008B0827 /* AppAuthCore.xcframework */; };
-		28829DC62AE87EDE008B0827 /* AppAuthCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 28829DC02AE87EDE008B0827 /* AppAuthCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		28829DC82AE8800C008B0827 /* GTMAppAuthCore.h in Headers */ = {isa = PBXBuildFile; fileRef = E68F56ABD6AD33945C4E92C9 /* GTMAppAuthCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28829DC92AE8800E008B0827 /* GTMAppAuthFetcherAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E14EF5ABDA43F8F2EB026FB /* GTMAppAuthFetcherAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28829DCA2AE88010008B0827 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A591432D89836F718C317D2 /* GTMAppAuthFetcherAuthorization+Keychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,22 +22,6 @@
 		28AC130E2AE83E03008A0726 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 28AC130D2AE83E03008A0726 /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28AC13132AE83E11008A0726 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AC13122AE83E11008A0726 /* Security.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		28829DC72AE87EDE008B0827 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				28829DC62AE87EDE008B0827 /* AppAuthCore.xcframework in Embed Frameworks */,
-				28829DC22AE87EDE008B0827 /* GTMSessionFetcher.xcframework in Embed Frameworks */,
-				28829DC42AE87EDE008B0827 /* AppAuth.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0A33C85103ECECAE3058A14F /* GTMOAuth2KeychainCompatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2KeychainCompatibility.h; sourceTree = "<group>"; };
@@ -213,7 +194,6 @@
 				28AC13072AE83E03008A0726 /* Sources */,
 				28AC13082AE83E03008A0726 /* Frameworks */,
 				28AC13092AE83E03008A0726 /* Resources */,
-				28829DC72AE87EDE008B0827 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
